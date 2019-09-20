@@ -1,0 +1,15 @@
+h2,
+h5 {
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+small {
+    font-size: 80%;
+    font-weight: 400;
+}
+
+.text-muted {
+    color: #6c757d!important;
+}

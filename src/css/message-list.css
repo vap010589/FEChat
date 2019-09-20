@@ -1,0 +1,35 @@
+.message-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.message-list-item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: .25rem;
+    padding: .375rem .75rem;
+}
+
+.message-list-item+.message-list-item {
+    margin-top: 1rem;
+}
+
+.message-list-item-group-by {
+    background-color: rgba(0, 0, 0, .03);
+    border: 1px solid rgba(0, 0, 0, .125);
+    position: relative;
+    padding: .375rem .75rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: .25rem;
+}
+
+.message-list-item-group-by:first-of-type {
+    margin-top: 0;
+}
