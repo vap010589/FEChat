@@ -21,7 +21,7 @@ npm install
 
 ## How to run project
 
-You can run project in Chrome with watch mode by executing the following command:
+You can run project in Chrome by executing the following command:
 
 ```shell
 npm run start
